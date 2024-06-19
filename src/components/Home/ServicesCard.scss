@@ -1,0 +1,14 @@
+.learn-more-btn{
+    >svg{
+        transform: rotate(0);
+        transition: all 150ms ease-in-out;
+        animation-direction: alternate;
+    }
+    &:hover{
+        &>svg{
+            transform: rotate(-45deg);
+            transition: all 150ms ease-in-out;
+            animation-direction: alternate;
+        }
+    }
+}

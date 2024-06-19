@@ -1,0 +1,85 @@
+@import "/src/styles/font.scss";
+// Variables de colores y tipografías
+$primary-color: #f6e3d8;
+$secondary-color: #212121;
+$accent-color: #803d3b;
+$font-family: "HelveticaNowDisplay";
+
+// Mixins para media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 599px) { @content; }
+  } @else if $breakpoint == tablet {
+    @media (min-width: 600px) and (max-width: 1199px) { @content; }
+  } @else if $breakpoint == desktop {
+    @media (min-width: 1200px) { @content; }
+  }
+}
+
+// Reset de estilos
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -moz-user-select: none;
+  line-height: normal;
+}
+body:has(.drawer){
+  overflow: hidden;
+}
+img{
+  pointer-events: none;
+}
+a{
+  cursor: pointer;
+}
+// Estilos globales
+body {
+  font-family: $font-family;
+  line-height: 1.6;
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+// Definición de breakpoints
+$breakpoint-mobile: 0;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+
+// Clase spacing
+.spacing {
+  padding: 48px; // Móvil (16px en x, 48px en y)
+  
+  @media (min-width: $breakpoint-tablet) {
+    padding: 46px 64px; // Tablet (24px en x, 64px en y)
+  }
+
+  @media (min-width: $breakpoint-desktop) {
+    padding: 120px 128px; // Escritorio (120px en x, 128px en y)
+  }
+}
+
+.clip{
+  clip-path: inset(0);
+}
+.h2-styled{
+  font-size: 45px; 
+  font-weight: 500;
+  line-height: normal;
+  @media screen and (max-width:1080px){
+    font-size: 30px;
+  }
+}
+.h6-styled{
+  font-size: 24px; 
+  font-weight: 500;
+  line-height: normal;
+}
+.slick-next{
+  right: 20px!important;
+}
+.slick-prev{
+  left: 20px!important;
+}
