@@ -22,12 +22,12 @@ const NuestroEnfoque = () => {
 
   return (
     <div 
-      className="w-full min-h-[926px] px-[120px] py-[194px] justify-center items-center gap-[146px] inline-flex"
+      className="w-full spacing justify-center items-center xl:justify-between gap-8 inline-flex flex-col xl:flex-row overflow-hidden"
       onMouseMove={handleMouseMove}
     >
-      <div className="max-w-[608px] flex-col justify-center items-start gap-32 inline-flex">
-        <div className="text-white text-[45px] font-medium">Nuestro enfoque</div>
-        <div className="self-stretch text-white text-base font-normal text-left">
+      <div className="max-w-[608px] flex-col justify-center xl:items-start gap-32 inline-flex text-center xl:text-left">
+        <div className="text-white h2-styled">Nuestro enfoque</div>
+        <div className="self-stretch text-white text-base font-normal">
           Nos enfocamos en la comunicación integral siempre teniendo en cuenta que las empresas con las que trabajemos se involucren social, cultural y ambientalmente. Muchos de los proyectos que llevamos a cabo son reconocidos en nuestra provincia y en todo el país.
           <br /><br />
           Trabajamos mano a mano con nuestros clientes para asegurar que sus valores y objetivos se reflejen en cada campaña. Nos enorgullece nuestra capacidad para crear estrategias de comunicación que no solo impacten positivamente a las marcas, sino que también contribuyan al bienestar de nuestra comunidad. A través de una colaboración constante y un compromiso con la excelencia, hemos logrado posicionarnos como líderes en el sector.
@@ -37,13 +37,13 @@ const NuestroEnfoque = () => {
       </div>
       <div className="w-[734px] h-[538px] relative">
         <img
-          className="w-[482px] h-[418px] left-[252px] top-[120px] absolute rounded-md"
+          className="w-[482px] left-[252px] top-[120px] absolute rounded-md"
           style={{ transform: `translate(${offset1.x}px, ${offset1.y}px)` }}
           src="/assets/enfoque-2.png"
           alt="enfoque-2"
         />
         <img
-          className="w-[483px] h-[418px] left-0 top-0 absolute rounded-md"
+          className="w-[483px] left-0 top-0 absolute rounded-md"
           style={{ transform: `translate(${offset2.x}px, ${offset2.y}px)` }}
           src="/assets/enfoque-1.png"
           alt="enfoque-1"

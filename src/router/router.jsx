@@ -6,10 +6,18 @@ import Servicio from '../pages/Servicio/Servicio'
 import Cases from '../pages/Cases/Cases'
 import Nosotros from '../pages/Nosotros/Nosotros'
 import Blog from '../pages/Blog/Blog'
+import Case from '../pages/Cases/Case'
+import ScrollToTop from '../components/general/ScrollToTop'
+import Contacto from '../pages/Contacto/Contacto'
 const router = createBrowserRouter([
     {
         path: '',
-        element: <Layout />,
+        element: (
+            <>
+                <ScrollToTop />
+                <Layout />
+            </>
+    ),
         children: [
             {
                 path: "/",                
@@ -19,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: "/casos-de-exito",
                 element: <Cases />
+            },
+            {
+                path: "/casos-de-exito/:caso",
+                element: <Case />
             },
             {
                 path: "/servicios/:servicio",
@@ -31,7 +43,11 @@ const router = createBrowserRouter([
             {
                 path: "/blog",
                 element: <Blog />
-            }
+            },
+            {
+              path: "/contacto",
+              element: <Contacto />
+          },
         ]
     }
 ])

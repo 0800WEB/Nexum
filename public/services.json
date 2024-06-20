@@ -4,37 +4,43 @@
             "id":1,
             "name":"Comunicación Integral",
             "description":"Desarrollamos estrategias de comunicación globales que incluyen la  relación con los medios, la generación de pertenencia y la gestión de  crisis. Nuestro enfoque integral asegura una imagen pública coherente y  sólida, fortaleciendo la conexión de tu marca con su audiencia y  gestionando cualquier eventualidad con eficacia y profesionalismo.",
-            "icon":"comunicación.png"
+            "icon":"comunicacion.png",
+            "href":"comunicacion"
         },
         {
             "id":2,
             "name":"Branding",
             "description":"Desarrollamos estrategias de comunicación integral que combinan la técnica con la creatividad, ofreciendo un servicio de alta calidad y complejidad. Nuestro enfoque se adapta perfectamente a tus necesidades, asegurando que tu marca destaque y resuene con tu audiencia.",
-            "icon":"branding.png"
+            "icon":"branding.png",
+            "href":"branding"
         },
         {
             "id":3,
             "name":"Diseño Web UX UI",
             "description":"Diseñamos la web de tu marca con un enfoque en la conversión, optimizando la experiencia de los usuarios a través de estrategias avanzadas de investigación y diseño UX/UI. Nuestro objetivo es crear sitios web intuitivos y atractivos que maximicen la interacción y la satisfacción del usuario.",
-            "icon":"diseño-web.png"
+            "icon":"diseño-web.png",
+            "href":"diseño-web"
         },
         {
             "id":4,
             "name":"SEO",
             "description":"Estrategias avanzadas de SEO para mejorar la visibilidad  de tu marca en los motores de búsqueda. Nos enfocamos en palabras clave  relevantes, contenido optimizado y técnicas de link building para  asegurar que tu sitio web alcance las primeras posiciones en los  resultados de búsqueda, atrayendo tráfico orgánico de calidad.",
-            "icon":"seo.png"
+            "icon":"seo.png",
+            "href":"seo"
         },
         {
             "id":5,
             "name":"Inteligencia Artificial",
             "description":"Integramos soluciones de inteligencia artificial para resolver problemas humanos de manera eficiente y personalizada.  Nuestras tecnologías avanzadas mejoran la experiencia del usuario,  automatizan procesos y proporcionan análisis inteligentes que optimizan  el rendimiento y la conversión de tu negocio.",
-            "icon":"IA.png"
+            "icon":"IA.png",
+            "href":"ia"
         },
         {
             "id":6,
             "name":"Publicidad",
             "description":"Nos especializamos en la creación de estrategias publicitarias que  resuenan, cautivan y generan resultados en el dinámico entorno empresarial. Con un profundo conocimiento del panorama regional y sus complejidades, elaboramos campañas publicitarias que se destacan  entre el ruido, capturan la atención de tu audiencia y ofrecen  resultados excepcionales.",
-            "icon":"paid-media.png"
+            "icon":"paid-media.png",
+            "href":"publicidad"
         }
     ]
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll'
 import React from 'react'
 
 const Hero = () => {
@@ -13,14 +14,14 @@ const Hero = () => {
                     Nos convertimos en parte de tu equipo para diseñar estrategias personalizadas que alcanzan tus objetivos y potencian tus ventas.
                 </p>
                 <div className='flex gap-4 font-medium'>
-                    <a className="w-[168px] h-[51px] rounded-md border border-neutral-800 flex-col justify-center items-center inline-flex overflow-hidden">
+                    <Link smooth={true} duration={500} to='servicios' className="w-[168px] h-[51px] rounded-md border border-neutral-800 flex-col justify-center items-center inline-flex overflow-hidden">
                         <div className="w-full h-full bg-neutral-800 shadow-inner shadow-white/25 justify-center items-center gap-2.5 inline-flex text-white">
                             Saber más
                         </div>
-                    </a>
-                    <a className="w-[205.33px] h-[51px] rounded-md border border-neutral-800/80 flex-col justify-center items-center inline-flex text-black/70">
+                    </Link>
+                    <Link smooth={true} duration={500} to='proyectos' className="w-[205.33px] h-[51px] rounded-md border border-neutral-800/80 flex-col justify-center items-center inline-flex text-black/70">
                         Ver proyectos
-                    </a>
+                    </Link>
                 </div>
             </div>
             <img className='max-h-screen max-w-[370px] absolute top-0 right-[120px] h-full hidden xl:inline' src='/assets/hero-image.png' />
