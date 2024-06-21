@@ -28,7 +28,7 @@ const ComoTrabajamos = () => {
 
   return (
     <div 
-      className="w-full px-[120px] py-[194px] justify-center items-center gap-[146px] inline-flex flex-col-reverse 2xl:flex-row overflow-hidden"
+      className="w-full spacing justify-center items-center gap-[146px] inline-flex flex-col-reverse 2xl:flex-row overflow-hidden"
       onMouseMove={handleMouseMove}
     >
       <div className="w-[734px] h-[633px] relative">

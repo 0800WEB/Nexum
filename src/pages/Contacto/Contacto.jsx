@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contacto = () => {
   return (
-    <div className='min-h-[90vh] spacing flex flex-col gap-12 lg:gap-24 items-center text-center'>
+    <div className='min-h-[90vh] spacing flex flex-col gap-12 lg:gap-24 items-center justify-center text-center'>
           <section className='max-w-[735px] flex flex-col gap-8'>
             <h3 className='h2-styled'>Hablemos</h3> 
             <p>¿Querés desarrollar un proyecto? Demos vida a tu visión</p>

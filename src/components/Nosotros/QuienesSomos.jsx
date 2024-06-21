@@ -3,7 +3,7 @@ import React from 'react'
 
 const QuienesSomos = () => {
   return (
-    <div className="max-w-[986px] px-[120px] py-[194px] justify-center items-center gap-[146px] inline-flex">
+    <div className="max-w-[986px] spacing justify-center items-center gap-[146px] inline-flex">
         <div className="flex-col justify-center items-center gap-32 inline-flex">
             <div className="flex-col justify-center items-center gap-8 flex">
                 <div className="text-center text-white h2-styled">Quienes somos</div>

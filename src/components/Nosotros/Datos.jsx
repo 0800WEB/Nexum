@@ -3,7 +3,7 @@ import React from 'react'
 const Datos = () => {
   return (
 <div className="w-[986px] min-h-44 flex-col justify-start items-center gap-8 inline-flex">
-    <div className="self-stretch justify-center items-center inline-flex flex-wrap gap-12">
+    <div className="self-baseline justify-center items-baseline inline-flex flex-wrap gap-12">
         <div className="h-[125px] flex-col justify-between items-start inline-flex">
             <div className="text-center text-white text-5xl font-black">14</div>
             <hr className='h-1 bg-white w-full'/>
