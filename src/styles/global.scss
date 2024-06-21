@@ -50,7 +50,7 @@ $breakpoint-desktop: 1024px;
 
 // Clase spacing
 .spacing {
-  padding: 48px; // Móvil (16px en x, 48px en y)
+  padding: 48px 1rem; // Móvil (16px en x, 48px en y)
   
   @media (min-width: $breakpoint-tablet) {
     padding: 46px 64px; // Tablet (24px en x, 64px en y)
