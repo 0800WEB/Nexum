@@ -13,7 +13,7 @@ const Footer = () => {
         }
       };
     return (
-        <div className="w-full min-h-[684px] bg-neutral-800 justify-between items-center inline-flex flex-wrap spacing">
+        <div className="w-full min-h-[684px] bg-secondary justify-between items-center inline-flex flex-wrap spacing">
             <div className="self-stretch p-2.5 flex-col justify-between items-start inline-flex">
                 <div className="flex-col justify-center items-start gap-8 flex">
                     <div className="w-[165px] h-[50px] relative">

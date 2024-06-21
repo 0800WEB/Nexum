@@ -1,6 +1,5 @@
 import React from 'react'
-import CasesCard from '../../components/Cases/CasesCard'
-
+import BlogCard from '../../components/Blog/BlogCard'
 const Blog = () => {
   return (
     <div className='min-h-[90vh] spacing flex flex-col gap-12 lg:gap-24 items-center text-center'>
@@ -9,9 +8,9 @@ const Blog = () => {
             <p>Contenido de valor para nutrirte de creatividad</p>
         </section>
         <div className="wrapper-component flex gap-28 sm:gap-4 flex-wrap justify-center items-center">
-        <CasesCard/>
-        <CasesCard/>
-        <CasesCard/>
+          <BlogCard/>
+          <BlogCard/>
+          <BlogCard/>
         </div>
     </div>
   )

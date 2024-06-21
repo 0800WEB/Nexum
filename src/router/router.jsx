@@ -9,6 +9,7 @@ import Blog from '../pages/Blog/Blog'
 import Case from '../pages/Cases/Case'
 import ScrollToTop from '../components/general/ScrollToTop'
 import Contacto from '../pages/Contacto/Contacto'
+import BlogDetail from '../pages/Blog/BlogDetail'
 const router = createBrowserRouter([
     {
         path: '',
@@ -47,7 +48,11 @@ const router = createBrowserRouter([
             {
               path: "/contacto",
               element: <Contacto />
-          },
+            },
+            {
+              path: "/blog/:blog",
+              element: <BlogDetail />
+            },
         ]
     }
 ])

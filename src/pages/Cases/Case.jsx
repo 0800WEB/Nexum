@@ -3,9 +3,9 @@ import React from 'react'
 const Case = () => {
     return (
         <>
-            <div className="bkg bg-primary h-[40vh]"></div>
+            <div className="bkg bg-primary h-[60vh] sm:h-[40vh]"></div>
             <div className='min-h-screen spacing flex flex-col gap-12 lg:gap-24 bg-secondary'>
-                <div className='wrapper -translate-y-96'>
+                <div className='wrapper -translate-y-[35rem] sm:-translate-y-96'>
                     <div className="min-h-[110.62px] flex-col justify-start items-start gap-4 inline-flex">
                         <h3 className='h2-styled'>Exar</h3>
                         <div className="justify-start items-start gap-4 inline-flex flex-wrap">
