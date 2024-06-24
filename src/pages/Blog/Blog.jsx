@@ -9,8 +9,6 @@ const Blog = () => {
         </section>
         <div className="wrapper-component flex gap-28 sm:gap-4 flex-wrap justify-center items-center">
           <BlogCard/>
-          <BlogCard/>
-          <BlogCard/>
         </div>
     </div>
   )
