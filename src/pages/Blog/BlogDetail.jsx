@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { IoIosArrowBack } from "react-icons/io";
 
 const BlogDetail = () => {
   return (
     <div className='min-h-screen items-center spacing flex flex-col gap-[64px]'>
          <div className='flex gap-4 items-center font-medium text-secondary self-start'>
-            <p>BLOG</p>
+            <Link to={"/blog"}>BLOG</Link>
             <IoIosArrowBack/>
-            <p>EXAR</p>
+            <p className='uppercase'>De esta manera logramos publicidad efectiva en nuestros clientes</p>
          </div>
          <img className="max-w-[1488px] max-h-[653px] w-full rounded-md object-cover " src="/assets/enfoque-1.png" />
          <div className='flex flex-col 2xl:flex-row 2xl:gap-8 w-full max-w-[1488px] 2xl:justify-between'>

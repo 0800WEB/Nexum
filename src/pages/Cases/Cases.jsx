@@ -10,8 +10,6 @@ const Cases = () => {
         </section>
         <div className="wrapper-component flex gap-28 sm:gap-4 flex-wrap justify-center items-center">
         <CasesCard/>
-        <CasesCard/>
-        <CasesCard/>
         </div>
     </div>
   )
