@@ -1,0 +1,77 @@
+{
+    "service_detail": {
+        "id": 4,
+        "name": "Marketing Digital",
+        "hero_section": {
+            "title": "Estrategias de Marketing Digital Efectivas",
+            "subtitle": "Creamos y ejecutamos estrategias de marketing digital que aumentan la visibilidad de tu marca, atraen tráfico cualificado y generan resultados medibles.",
+            "benefits": [
+                {
+                    "id": 1,
+                    "title": "Aumento de Visibilidad Online",
+                    "description": "Mejoramos tu presencia en línea a través de técnicas avanzadas de SEO y SEM, asegurando que tu marca aparezca en los primeros resultados de búsqueda."
+                },
+                {
+                    "id": 2,
+                    "title": "Generación de Tráfico Cualificado",
+                    "description": "Atraemos visitantes interesados a tu sitio web mediante campañas de marketing de contenidos y publicidad pagada bien dirigidas."
+                },
+                {
+                    "id": 3,
+                    "title": "Análisis y Optimización",
+                    "description": "Monitoreamos y analizamos el rendimiento de tus campañas digitales para optimizarlas continuamente y maximizar tu retorno de inversión."
+                }
+            ]
+        },
+        "sections": [
+            {
+                "id": 1,
+                "title": "SEO",
+                "description": "Estrategias avanzadas de SEO para mejorar la visibilidad de tu marca en los motores de búsqueda. Nos enfocamos en palabras clave relevantes, contenido optimizado y técnicas de link building.",
+                "subsections": [
+                    "Investigación de Palabras Clave",
+                    "Optimización On-Page",
+                    "Link Building",
+                    "SEO Técnico"
+                ],
+                "image":"marketing/image-1.jpg"
+            },
+            {
+                "id": 2,
+                "title": "SEM",
+                "description": "Gestionamos campañas de publicidad en motores de búsqueda para asegurar que tu marca llegue a la audiencia adecuada en el momento adecuado.",
+                "subsections": [
+                    "Publicidad en Google Ads",
+                    "Campañas de Remarketing",
+                    "Optimización de Conversiones",
+                    "Análisis y Reportes"
+                ],
+                "image":"marketing/image-2.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Marketing de Contenidos",
+                "description": "Creamos y distribuimos contenido valioso y relevante para atraer y retener a una audiencia claramente definida, y en última instancia, impulsar la acción del cliente.",
+                "subsections": [
+                    "Estrategia de Contenidos",
+                    "Creación de Contenidos",
+                    "Distribución de Contenidos",
+                    "Medición y Optimización"
+                ],
+                "image":"marketing/image-4.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Analítica Web",
+                "description": "Analizamos el rendimiento de tu sitio web y tus campañas digitales para proporcionar insights accionables que mejoren tu estrategia de marketing.",
+                "subsections": [
+                    "Configuración de Google Analytics",
+                    "Análisis de Tráfico",
+                    "Medición de KPI",
+                    "Informes Personalizados"
+                ],
+                "image":"marketing/image-3.jpg"
+            }
+        ]
+    }
+}

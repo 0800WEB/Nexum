@@ -1,0 +1,69 @@
+{
+    "service_detail": {
+      "id": 5,
+      "name": "Tecnología e Innovación",
+      "hero_section": {
+        "title": "Transforma tu negocio con soluciones tecnológicas innovadoras",
+        "subtitle": "Implementamos chatbots, automatizaciones y otras tecnologías de vanguardia para optimizar procesos, mejorar la experiencia del cliente y aumentar la eficiencia.",
+        "benefits": [
+          {
+            "id": 1,
+            "title": "Chatbots y Asistentes Virtuales",
+            "description": "Brinda atención al cliente 24/7, resuelve preguntas frecuentes y automatiza tareas repetitivas con chatbots inteligentes y asistentes virtuales."
+          },
+          {
+            "id": 2,
+            "title": "Automatización de Procesos Inteligentes",
+            "description": "Elimina tareas manuales tediosas, reduce errores y libera tiempo valioso para tus empleados con automatizaciones inteligentes."
+          },
+          {
+            "id": 3,
+            "title": "Soluciones a medida con o sin IA",
+            "description": "Desarrollamos soluciones personalizadas que se adaptan a tus necesidades específicas, utilizando inteligencia artificial cuando sea necesario."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "id": 1,
+          "title": "Chatbots Inteligentes para Atención al Cliente",
+          "description": "Mejora la experiencia de tus clientes y libera tiempo para tus agentes con chatbots que responden preguntas, resuelven problemas y brindan soporte de manera eficiente.",
+          "subsections": [
+            "Atención al cliente 24/7",
+            "Resolución de preguntas frecuentes",
+            "Soporte técnico",
+            "Calificación de leads",
+            "Integración con múltiples canales"
+          ],
+          "image": "tecnologia-innovacion/image-1.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Automatización de Procesos Inteligentes",
+          "description": "Optimiza tus procesos internos, reduce costos y aumenta la eficiencia con automatizaciones que realizan tareas repetitivas de manera precisa y confiable.",
+          "subsections": [
+            "Automatización de flujos de trabajo",
+            "Extracción y análisis de datos",
+            "Envío de correos electrónicos y notificaciones",
+            "Integración con sistemas empresariales",
+            "Monitoreo y generación de informes"
+          ],
+          "image": "tecnologia-innovacion/image-2.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Soluciones a medida con o sin IA",
+          "description": "Creamos soluciones tecnológicas personalizadas que se adaptan a tus necesidades específicas, utilizando inteligencia artificial cuando sea necesario para potenciar sus capacidades.",
+          "subsections": [
+            "Análisis de necesidades y objetivos",
+            "Diseño y desarrollo de soluciones",
+            "Integración con sistemas existentes",
+            "Implementación y capacitación",
+            "Mantenimiento y soporte continuo"
+          ],
+          "image": "tecnologia-innovacion/image-3.jpg"
+        }
+      ]
+    }
+  }
+  

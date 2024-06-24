@@ -39,12 +39,12 @@ const Footer = () => {
             <div className="self-stretch p-2.5 flex-col justify-start items-start gap-2.5 inline-flex">
                 <div className="text-center text-white text-base font-bold  leading-normal">Servicios</div>
                 <div className="flex-col justify-start items-start gap-4 flex">
-                    <Link to={`/servicios/comunicacion`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Comunicación Integral</Link>
+                    <Link to={`/servicios/comunicacion`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Estrategia de Comunicación</Link>
                     <Link to={`/servicios/branding`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Branding</Link>
-                    <Link to={`/servicios/diseñoweb`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Diseño Web UX UI</Link>
-                    <Link to={`/servicios/seo`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">SEO</Link>
-                    <Link to={`/servicios/ia`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Inteligencia Artificial</Link>
-                    <Link to={`/servicios/publicidad`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Publicidad</Link>
+                    <Link to={`/servicios/desarrollo-digital`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Desarrollo Digital</Link>
+                    <Link to={`/servicios/marketing-digital`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Marketing Digital</Link>
+                    <Link to={`/servicios/tecnologia-innovacion`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Tecnología e Innovación</Link>
+                    <Link to={`/servicios/social-media`} className="opacity-70 text-center text-white text-base font-normal  leading-normal">Social Media y Paid Media</Link>
                 </div>
             </div>
         </div>

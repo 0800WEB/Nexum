@@ -1,0 +1,77 @@
+{
+    "service_detail": {
+        "id": 1,
+        "name": "Estrategias de Comunicación",
+        "hero_section": {
+            "title": "Comunicación Estratégica y Efectiva",
+            "subtitle": "Desarrollamos estrategias de comunicación que fortalecen la imagen de tu marca, manejan crisis con eficiencia y mejoran la relación con tu audiencia.",
+            "benefits": [
+                {
+                    "id": 1,
+                    "title": "Relaciones Públicas Sólidas",
+                    "description": "Mejoramos la percepción de tu marca a través de relaciones públicas efectivas que construyen y mantienen una buena imagen pública."
+                },
+                {
+                    "id": 2,
+                    "title": "Gestión de Crisis Eficaz",
+                    "description": "Manejamos situaciones críticas de manera rápida y profesional, minimizando el impacto negativo en tu marca y recuperando la confianza de tu audiencia."
+                },
+                {
+                    "id": 3,
+                    "title": "Comunicación Corporativa Coherente",
+                    "description": "Aseguramos que todos los mensajes de tu empresa sean coherentes y alineados con tus valores y objetivos, fortaleciendo tu identidad corporativa."
+                }
+            ]
+        },
+        "sections": [
+            {
+                "id": 1,
+                "title": "Relaciones Públicas",
+                "description": "Desarrollamos estrategias de relaciones públicas que mejoran la percepción y reputación de tu marca a través de medios de comunicación y eventos.",
+                "subsections": [
+                    "Gestión de Medios",
+                    "Organización de Eventos",
+                    "Estrategias de Influencers",
+                    "Monitoreo de Reputación"
+                ],
+                "image":"comunicacion/image-1.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Gestión de Crisis",
+                "description": "Implementamos planes de acción para manejar situaciones críticas de manera eficiente, minimizando el impacto negativo en tu marca.",
+                "subsections": [
+                    "Planificación de Crisis",
+                    "Comunicación de Emergencia",
+                    "Entrenamiento de Portavoces",
+                    "Análisis Post-crisis"
+                ],
+                "image":"comunicacion/image-2.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Comunicación Corporativa",
+                "description": "Creamos una comunicación interna y externa coherente que refuerza la identidad y los valores de tu empresa.",
+                "subsections": [
+                    "Estrategias de Comunicación Interna",
+                    "Boletines Corporativos",
+                    "Manejo de Redes Sociales",
+                    "Responsabilidad Social Corporativa"
+                ],
+                "image":"comunicacion/image-3.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Creación de Contenidos",
+                "description": "Producimos contenido atractivo y relevante que resuena con tu audiencia y refuerza los mensajes clave de tu marca.",
+                "subsections": [
+                    "Redacción Creativa",
+                    "Producción de Videos",
+                    "Diseño Gráfico",
+                    "Marketing en Redes Sociales"
+                ],
+                "image":"comunicacion/image-4.jpg"
+            }
+        ]
+    }
+}

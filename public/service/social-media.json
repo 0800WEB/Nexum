@@ -1,0 +1,68 @@
+{
+    "service_detail": {
+      "id": 6,
+      "name": "Social Media & Paid Media",
+      "hero_section": {
+        "title": "Maximiza tu alcance y engagement con Social Media & Paid Media",
+        "subtitle": "Creamos y ejecutamos estrategias integrales de Social Media y Paid Media para que tu marca conecte con su público objetivo, genere engagement y alcance sus objetivos de negocio.",
+        "benefits": [
+          {
+            "id": 1,
+            "title": "Mayor visibilidad y alcance",
+            "description": "Aumentamos el número de seguidores de tus redes sociales y expandimos tu alcance a un público más amplio."
+          },
+          {
+            "id": 2,
+            "title": "Mayor engagement",
+            "description": "Generamos contenido atractivo e interactivo que fomenta la participación de tu audiencia."
+          },
+          {
+            "id": 3,
+            "title": "Mejora la imagen de marca",
+            "description": "Construimos una imagen de marca sólida y positiva en las redes sociales."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "id": 1,
+          "title": "Social Media",
+          "description": "Creamos y ejecutamos estrategias de Social Media personalizadas para que tu marca conecte con su público objetivo, genere engagement y alcance sus objetivos de negocio.",
+          "subsections": [
+            "Definición de objetivos y público objetivo",
+            "Desarrollo de una estrategia de Social Media",
+            "Creación y publicación de contenido atractivo",
+            "Gestión de comunidades online",
+            "Análisis y medición de resultados"
+          ],
+          "image": "social-media/image-1.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Paid Media",
+          "description": "Creamos y gestionamos campañas de medios pagados efectivas en plataformas como Facebook, Instagram, Google Ads y LinkedIn para que alcances tus objetivos de marketing.",
+          "subsections": [
+            "Definición de objetivos y público objetivo",
+            "Selección de plataformas y canales de publicidad",
+            "Creación de anuncios atractivos y relevantes",
+            "Gestión y optimización de campañas",
+            "Análisis y medición de resultados"
+          ],
+          "image": "social-media/image-2.png"
+        },
+        {
+          "id": 3,
+          "title": "Social Media Analytics",
+          "description": "Rastreamamos y analizamos el rendimiento de tus campañas de Social Media para que puedas tomar decisiones informadas y optimizar tus resultados.",
+          "subsections": [
+            "Análisis de seguidores y engagement",
+            "Análisis de contenido",
+            "Análisis de campañas",
+            "Informes y recomendaciones"
+          ],
+          "image": "social-media/image-3.png"
+        }
+      ]
+    }
+  }
+  

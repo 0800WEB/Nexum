@@ -1,0 +1,65 @@
+{
+    "service_detail": {
+        "id": 3,
+        "name": "Desarrollo Digital",
+        "hero_section": {
+            "title": "Soluciones Digitales Innovadoras",
+            "subtitle": "Desarrollamos soluciones digitales que mejoran la presencia online y la experiencia del usuario, adaptadas a tus necesidades específicas.",
+            "benefits": [
+                {
+                    "id": 1,
+                    "title": "Experiencia de Usuario Mejorada",
+                    "description": "Creamos interfaces intuitivas y atractivas que optimizan la interacción del usuario con tu marca, mejorando la satisfacción y fidelización."
+                },
+                {
+                    "id": 2,
+                    "title": "Presencia Online Optimizada",
+                    "description": "Desarrollamos sitios web y aplicaciones móviles que reflejan la identidad de tu marca, garantizando una presencia online consistente y efectiva."
+                },
+                {
+                    "id": 3,
+                    "title": "Tecnología de Vanguardia",
+                    "description": "Utilizamos las últimas tecnologías para asegurar que tus soluciones digitales sean robustas, escalables y seguras."
+                }
+            ]
+        },
+        "sections": [
+            {
+                "id": 1,
+                "title": "Diseño Web UX/UI",
+                "description": "Diseñamos la web de tu marca con un enfoque en la conversión, optimizando la experiencia de los usuarios a través de estrategias avanzadas de investigación y diseño UX/UI.",
+                "subsections": [
+                    "Investigación de Usuarios",
+                    "Wireframing y Prototipado",
+                    "Diseño de Interfaz",
+                    "Pruebas de Usabilidad"
+                ],
+                "image":"desarrollo-digital/image-1.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Desarrollo Web y Móvil",
+                "description": "Desarrollamos sitios web y aplicaciones móviles que se adaptan a las necesidades de tu negocio, garantizando funcionalidad, rendimiento y una experiencia de usuario óptima.",
+                "subsections": [
+                    "Desarrollo Front-End",
+                    "Desarrollo Back-End",
+                    "Aplicaciones Móviles",
+                    "Mantenimiento y Soporte"
+                ],
+                "image":"desarrollo-digital/image-2.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Experiencia de Usuario",
+                "description": "Creamos experiencias digitales centradas en el usuario, asegurando que cada interacción con tu marca sea intuitiva, eficiente y satisfactoria.",
+                "subsections": [
+                    "Arquitectura de la Información",
+                    "Diseño Centrado en el Usuario",
+                    "Interacción y Animaciones",
+                    "Optimización de Conversión"
+                ],
+                "image":"desarrollo-digital/image-3.jpg"
+            }
+        ]
+    }
+}

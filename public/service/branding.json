@@ -1,0 +1,65 @@
+{
+    "service_detail": {
+        "id": 2,
+        "name": "Branding",
+        "hero_section": {
+            "title": "Construimos Identidades Poderosas",
+            "subtitle": "Ofrecemos servicios completos para maximizar tu marca: creación de la misma, diseño de la identidad, desarrollo de estrategias, packaging e innovación, renovación de identidad y desarrollo de brandbooks. Todo en un solo lugar.",
+            "benefits": [
+                {
+                    "id": 1,
+                    "title": "Diferenciación y Reconocimiento de Marca",
+                    "description": "Diferenciamos y elevamos tu marca para fortalecerla. Al mismo tiempo que la hacemos más visible, logramos que tu marca sea única, memorable y siempre se destaque."
+                },
+                {
+                    "id": 2,
+                    "title": "Credibilidad y Confianza",
+                    "description": "Tu marca puede ser vista como la opción confiable. Con la construcción de una buena estrategia de branding, podrás posicionarte en el mercado y ganar la lealtad de tu público."
+                },
+                {
+                    "id": 3,
+                    "title": "Valor Añadido y Posibilidad de Precio Premium",
+                    "description": "Un producto que podría ser más especial si le añades valor. Con el branding puedes destacar tu producto y hacerlo ver como más premium, lo cual está permitido cobrarlo como especial."
+                }
+            ]
+        },
+        "sections": [
+            {
+                "id": 1,
+                "title": "Estrategia de Marca",
+                "description": "Identificamos y valoramos lo que hace especial a tu negocio. Desarrollamos estrategias de marca que fortalezcan la conexión con tu audiencia, estableciendo la percepción de valor y propósito de manera coherente y efectiva.",
+                "subsections": [
+                    "Posicionamiento",
+                    "Auditoría de Marca",
+                    "Propósito de Marca",
+                    "Arquitectura de Marca"
+                ],
+                "image":"branding/image-1.png"
+            },
+            {
+                "id": 2,
+                "title": "Identidad",
+                "description": "Más allá de lo estético, creamos identidades visuales consistentes que cautivan la esencia de tu marca. Desde el naming hasta la definición de paletas de colores, tipografía y elementos gráficos, garantizamos una presencia distintiva en cada punto de contacto.",
+                "subsections": [
+                    "Naming y Tagline",
+                    "Identidad Visual",
+                    "Recurso Gráfico",
+                    "Tone of Voice"
+                ],
+                "image":"branding/image-2.png"
+            },
+            {
+                "id": 3,
+                "title": "Implementación",
+                "description": "Convertimos tu identidad en experiencias tangibles. Implementamos tu marca en todos los ángulos de tu negocio, tanto en productos como espacios. Desde el branding de empaque, el manual de identidad, hasta la presencia en medios sociales y físicos, manejamos la ejecución de manera eficiente y coherente.",
+                "subsections": [
+                    "Packaging",
+                    "Retail",
+                    "Gráfica",
+                    "Digital y Social Media"
+                ],
+                "image":"branding/image-3.png"
+            }
+        ]
+    }
+}
