@@ -1,0 +1,65 @@
+{
+    "service_detail": {
+        "id": 3,
+        "name": "Gestión en Esquemas y Procesos",
+        "hero_section": {
+            "title": "Optimización de Esquemas y Procesos",
+            "subtitle": "Ayudamos a las empresas a implementar, mantener y mejorar sus sistemas de gestión con base en normativas ISO, garantizando eficiencia y competitividad.",
+            "benefits": [
+                {
+                    "id": 1,
+                    "title": "Eficiencia Organizacional",
+                    "description": "Optimizamos los procesos internos de la empresa para garantizar un funcionamiento ágil y eficiente."
+                },
+                {
+                    "id": 2,
+                    "title": "Cumplimiento de Normas ISO",
+                    "description": "Aseguramos el cumplimiento de las normas ISO 9001, 14001 y 45001, facilitando la certificación."
+                },
+                {
+                    "id": 3,
+                    "title": "Mejora Continua",
+                    "description": "Promovemos una cultura de mejora continua, permitiendo la adaptación constante a los cambios del mercado."
+                }
+            ]
+        },
+        "sections": [
+            {
+                "id": 1,
+                "title": "Consultoría en ISO 9001, 14001 y 45001",
+                "description": "Brindamos consultoría especializada para la implementación y certificación de las normas ISO en calidad, medio ambiente y seguridad y salud laboral.",
+                "subsections": [
+                    "Análisis de brechas",
+                    "Planificación de la implementación",
+                    "Capacitación de equipos",
+                    "Auditorías internas"
+                ],
+                "image": "gestion/image-1.png"
+            },
+            {
+                "id": 2,
+                "title": "Mejora de Procesos Organizacionales",
+                "description": "Optimizamos los procesos clave de la organización para reducir costos, eliminar ineficiencias y aumentar la productividad.",
+                "subsections": [
+                    "Mapeo de procesos",
+                    "Rediseño de procesos",
+                    "Automatización de flujos de trabajo",
+                    "Indicadores de gestión"
+                ],
+                "image": "gestion/image-2.png"
+            },
+            {
+                "id": 3,
+                "title": "Gestíon del Riesgo y Cumplimiento",
+                "description": "Identificamos, evaluamos y gestionamos riesgos para asegurar la continuidad del negocio y el cumplimiento normativo.",
+                "subsections": [
+                    "Análisis de riesgos",
+                    "Planes de contingencia",
+                    "Control de riesgos operacionales",
+                    "Monitoreo y evaluación"
+                ],
+                "image": "gestion/image-3.png"
+            }
+        ]
+    }
+}
