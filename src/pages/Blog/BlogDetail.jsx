@@ -8,7 +8,7 @@ const BlogDetail = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const API_URL = `https://nexum-cms.onrender.com/api/articles?filters[slug][$eq]=${slug}&populate=cover&populate=author.avatar&populate=category`;
+    const API_URL = `https://nexum-cms-production.up.railway.app/api/articles?filters[slug][$eq]=${slug}&populate=cover&populate=author.avatar&populate=category`;
     const API_TOKEN = '3f7caa4c91a691f966feff7f2703555998b548b18cbe0933c04eae8254ceda0e687d4ffe49c363f78bfa845b86666e8e2f85e87d5f4f9dab4061f365a9f73e4d6f069582c380cce10462efdf2e99c1b417f4716e0d6349589252b6553e598b61e4e7920c57046b56cefd68b1bf21a778090d04c0307df98d7c5e40671cd327d4';
 
     axios
@@ -50,7 +50,7 @@ const BlogDetail = () => {
         <div className="w-full h-28 relative flex-shrink-0 flex gap-4">
           <img
             className="w-24 h-24 left-0 top-0 absolute object-cover rounded-full"
-            src={`https://nexum-cms.onrender.com${author.avatar?.url}`}
+            src={`https://nexum-cms-production.up.railway.app${author.avatar?.url}`}
             alt={author?.name || 'Autor'}
           />
           <div className="left-[143px] top-[48px] absolute text-neutral-800/opacity-80 text-base font-normal flex">
@@ -63,7 +63,7 @@ const BlogDetail = () => {
         {/* Imagen de portada */}
         <img
           className="max-h-[653px] w-full rounded-md object-cover max-w-[750px]"
-          src={`https://nexum-cms.onrender.com${cover?.url}`}
+          src={`https://nexum-cms-production.up.railway.app${cover?.url}`}
           alt={title}
         />
 

@@ -4,7 +4,7 @@ import BlogCard from '../../components/Blog/BlogCard'
 const Blog = () => {
   let [articles, setArticles] = useState([])
   useEffect(() => {
-    const API_URL = "https://nexum-cms.onrender.com/api/articles?populate=*";
+    const API_URL = "https://nexum-cms-production.up.railway.app/api/articles?populate=*";
     const API_TOKEN = "3f7caa4c91a691f966feff7f2703555998b548b18cbe0933c04eae8254ceda0e687d4ffe49c363f78bfa845b86666e8e2f85e87d5f4f9dab4061f365a9f73e4d6f069582c380cce10462efdf2e99c1b417f4716e0d6349589252b6553e598b61e4e7920c57046b56cefd68b1bf21a778090d04c0307df98d7c5e40671cd327d4";
     
     axios
