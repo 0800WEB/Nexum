@@ -6,25 +6,25 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Trusted = () => {
   const clients = [
-    { name: 'Bellomo', image: "belomo.png" },
-    { name: 'Che Revista', image: "che.png" },
-    { name: 'Exar', image: "exar.png" },
-    { name: 'Finca Machuca', image: "finca.png" },
-    { name: 'Geco Constructora', image: "geco.png" },
-    { name: 'Get - Servicios Industriales', image: "get.png" },
+    { name: 'Bellomo', image: "belomo.webp" },
+    { name: 'Che Revista', image: "che.webp" },
+    { name: 'Exar', image: "exar.webp" },
+    { name: 'Finca Machuca', image: "finca.webp" },
+    { name: 'Geco Constructora', image: "geco.webp" },
+    { name: 'Get - Servicios Industriales', image: "get.webp" },
     // Agrega más clientes aquí si es necesario
-    { name: 'Bellomo', image: "belomo.png" },
-    { name: 'Che Revista', image: "che.png" },
-    { name: 'Exar', image: "exar.png" },
-    { name: 'Finca Machuca', image: "finca.png" },
-    { name: 'Geco Constructora', image: "geco.png" },
-    { name: 'Get - Servicios Industriales', image: "get.png" },
-    { name: 'Bellomo', image: "belomo.png" },
-    { name: 'Che Revista', image: "che.png" },
-    { name: 'Exar', image: "exar.png" },
-    { name: 'Finca Machuca', image: "finca.png" },
-    { name: 'Geco Constructora', image: "geco.png" },
-    { name: 'Get - Servicios Industriales', image: "get.png" },
+    { name: 'Bellomo', image: "belomo.webp" },
+    { name: 'Che Revista', image: "che.webp" },
+    { name: 'Exar', image: "exar.webp" },
+    { name: 'Finca Machuca', image: "finca.webp" },
+    { name: 'Geco Constructora', image: "geco.webp" },
+    { name: 'Get - Servicios Industriales', image: "get.webp" },
+    { name: 'Bellomo', image: "belomo.webp" },
+    { name: 'Che Revista', image: "che.webp" },
+    { name: 'Exar', image: "exar.webp" },
+    { name: 'Finca Machuca', image: "finca.webp" },
+    { name: 'Geco Constructora', image: "geco.webp" },
+    { name: 'Get - Servicios Industriales', image: "get.webp" },
   ];
 
   const settings = {

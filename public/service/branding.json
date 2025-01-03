@@ -34,7 +34,7 @@
                     "Propósito de Marca",
                     "Arquitectura de Marca"
                 ],
-                "image":"branding/image-1.png"
+                "image":"branding/image-1.webp"
             },
             {
                 "id": 2,
@@ -46,7 +46,7 @@
                     "Recurso Gráfico",
                     "Tone of Voice"
                 ],
-                "image":"branding/image-2.png"
+                "image":"branding/image-2.webp"
             },
             {
                 "id": 3,
@@ -58,7 +58,7 @@
                     "Gráfica",
                     "Digital y Social Media"
                 ],
-                "image":"branding/image-3.png"
+                "image":"branding/image-3.webp"
             }
         ]
     }

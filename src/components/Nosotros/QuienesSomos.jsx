@@ -9,7 +9,7 @@ const QuienesSomos = () => {
                 <div className="text-center text-white h2-styled">Quienes somos</div>
                 <div className="text-white text-base font-normal">En Nexum, somos el punto de encuentro entre lo creativo y lo inteligente. Nuestro equipo está compuesto por profesionales apasionados y expertos en diversas áreas, desde la estrategia de comunicación hasta la implementación de inteligencia artificial. Nos dedicamos a ofrecer soluciones integrales que conectan las ideas innovadoras con la tecnología de vanguardia, asegurando que cada proyecto refleje tanto la visión creativa como la eficiencia técnica.</div>
             </div>
-            <img className="self-stretch max-h-[690px] rounded-md max-w-full object-cover" src="assets/quienes-somos-1.png" />
+            <img className="self-stretch max-h-[690px] rounded-md max-w-full object-cover" src="assets/quienes-somos-1.webp" />
         </div>
     </div>
   )

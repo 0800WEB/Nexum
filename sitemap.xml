@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página principal -->
+    <url>
+        <loc>https://www.nexum.net.ar/</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Páginas estáticas -->
+    <url>
+        <loc>https://www.nexum.net.ar/contacto</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/nosotros</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/casos-de-exito</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Sección servicios -->
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/comunicacion</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/branding</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/gestion</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/marketing-digital</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/tecnologia-innovacion</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/servicios/social-media</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Blog -->
+    <url>
+        <loc>https://www.nexum.net.ar/blog</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Artículos destacados del blog -->
+    <url>
+        <loc>https://www.nexum.net.ar/blog/como-un-diseno-web-profesional-puede-aumentar-las-ventas-de-tu-negocio-en-jujuy/</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://www.nexum.net.ar/blog/posiciona-tu-negocio-en-jujuy-con-seo-local-efectivo/</loc>
+        <lastmod>2025-01-02</lastmod>
+        <priority>0.5</priority>
+    </url>
+</urlset>

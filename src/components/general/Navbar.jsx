@@ -43,7 +43,7 @@ const Navbar = () => {
   const Mobile = () => (
     <>
       <nav className="bg-primary w-full flex items-center justify-between">
-        <img className='max-w-[154px]' src={"/logo-dark.png"} alt="Nexum" />
+        <img className='max-w-[154px]' src={"/logo-dark.avif"} alt="Nexum" />
         <button 
           onClick={toggleMenu} 
           className={`z-30 flex flex-col justify-between w-6 h-6 bg-transparent border-none cursor-pointer focus:outline-none transition-all duration-300 ${menuOpen ? 'open' : ''}`}>
@@ -60,9 +60,8 @@ const Navbar = () => {
         <Link className="text-white text-lg" onClick={toggleMenu} to="/blog">BLOG</Link>
         <Link className="text-white text-lg" onClick={toggleMenu} to="/contacto">CONTACTO</Link>
         <div className="flex gap-2.5">
-          <a className="text-white" href="#instagram"><FaInstagram /></a>
-          <a className="text-white" href="#facebook"><FaFacebook /></a>
-          <a className="text-white" href="#linkedin"><FaLinkedin /></a>
+          <Link className="text-white" to="https://www.instagram.com/nexum.ar/" aria-label="instagram-link"><FaInstagram /></Link>
+          <Link className="text-white" to="https://www.linkedin.com/company/nexum-comunicaci%C3%B3n-integral" aria-label="linkedin-link"><FaLinkedin /></Link>
         </div>
       </div>
     </>
@@ -73,7 +72,7 @@ const Navbar = () => {
   } else {
     return (
       <nav className="w-full flex items-center gap-20">
-        <img className='max-w-[154px]' src={"/logo-dark.png"} alt="Nexum" />
+        <img className='max-w-[154px]' src={"/logo-dark.avif"} alt="Nexum" />
         <div className="flex gap-4 items-center font-bold text-sm">
           <Link className="text-secondary" to="/">INICIO</Link>
           <button className="text-secondary" onClick={() => handleScrollLinkClick('servicios')}>SERVICIOS</button>
@@ -82,9 +81,8 @@ const Navbar = () => {
           <Link className="text-secondary" to="/blog">BLOG</Link>
           <Link className="text-secondary" to="/contacto">CONTACTO</Link>
           <div className="flex gap-2.5">
-            <a className="text-secondary" href="#instagram"><FaInstagram /></a>
-            <a className="text-secondary" href="#facebook"><FaFacebook /></a>
-            <a className="text-secondary" href="#linkedin"><FaLinkedin /></a>
+          <Link className="text-secondary" to="https://www.instagram.com/nexum.ar/" aria-label="instagram-link"><FaInstagram /></Link>
+          <Link className="text-secondary" to="https://www.linkedin.com/company/nexum-comunicaci%C3%B3n-integral" aria-label="linkedin-link"><FaLinkedin /></Link>
           </div>
         </div>
       </nav>

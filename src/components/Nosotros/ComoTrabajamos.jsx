@@ -35,19 +35,19 @@ const ComoTrabajamos = () => {
         <img
           className="w-[482px] h-[236px] left-0 top-[397px] absolute rounded-md"
           style={{ transform: `translate(${offset1.x}px, ${offset1.y}px)` }}
-          src="assets/trabajamos-3.png"
+          src="assets/trabajamos-3.webp"
           alt="trabajamos-3"
         />
         <img
           className="w-[482px] h-[236px] left-[252px] 2xl:left-[152px] top-[199px] absolute rounded-md"
           style={{ transform: `translate(${offset2.x}px, ${offset2.y}px)` }}
-          src="assets/trabajamos-2.png"
+          src="assets/trabajamos-2.webp"
           alt="trabajamos-2"
         />
         <img
           className="w-[483px] h-[262px] left-0 top-0 absolute rounded-md"
           style={{ transform: `translate(${offset3.x}px, ${offset3.y}px)` }}
-          src="assets/trabajamos-1.png"
+          src="assets/trabajamos-1.webp"
           alt="trabajamos-1"
         />
       </div>

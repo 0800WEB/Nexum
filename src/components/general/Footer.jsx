@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="self-stretch p-2.5 flex-col justify-between items-start inline-flex">
                 <div className="flex-col justify-center items-start gap-8 flex">
                     <div className="w-[165px] h-[50px] relative">
-                        <img className="w-[164px] h-[29px] left-0 top-[10px] absolute object-contain object-left" src="/logo-white.png" />
+                        <img className="w-[164px] h-[29px] left-0 top-[10px] absolute object-contain object-left" src="/logo-white.avif" alt='Nexum: Comunicación Integral' role="img"/>
                     </div>
                     <div className="text-center text-white text-base font-normal  leading-normal">España & Argentina</div>
                     <div className="justify-start items-center gap-2.5 inline-flex">

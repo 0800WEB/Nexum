@@ -39,13 +39,13 @@ const NuestroEnfoque = () => {
         <img
           className="w-[482px] left-[252px] top-[120px] absolute rounded-md"
           style={{ transform: `translate(${offset1.x}px, ${offset1.y}px)` }}
-          src="/assets/enfoque-2.png"
+          src="/assets/enfoque-2.webp"
           alt="enfoque-2"
         />
         <img
           className="w-[483px] left-0 top-0 absolute rounded-md"
           style={{ transform: `translate(${offset2.x}px, ${offset2.y}px)` }}
-          src="/assets/enfoque-1.png"
+          src="/assets/enfoque-1.webp"
           alt="enfoque-1"
         />
       </div>

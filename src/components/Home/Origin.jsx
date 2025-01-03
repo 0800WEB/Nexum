@@ -7,7 +7,7 @@ const Origin = () => {
         <h3 className="h2-styled">De Jujuy para el mundo</h3>
         <p><strong>Nexum</strong> actualmente opera en Argentina y España, llevando una comunicación sin fronteras</p>
       </section>
-      <img className='lg:max-w-[750px] w-full object-cover' src="/assets/map.png" alt="Mapa" />
+      <img className='lg:max-w-[750px] w-full object-cover' src="/assets/map.webp" alt="Mapa" />
     </div>
   )
 }

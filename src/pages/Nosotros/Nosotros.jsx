@@ -14,7 +14,7 @@ const Nosotros = () => {
             </section>
             <div className='flex flex-col bg-secondary w-full min-h-[40vh] overflow-hidden justify-center items-center'>
                 <div className='min-h-[40vh] w-full relative overflow-hidden flex justify-center items-center spacing'>
-                    <img className='absolute right-0 top-1/2 -translate-y-1/2 h-full min-h-[600px] object-cover object-center' src="/assets/vector-transparent.png" alt="vector" />
+                    <img className='absolute right-0 top-1/2 -translate-y-1/2 h-full min-h-[600px] object-cover object-center' src="/assets/vector-transparent.webp" alt="vector" />
                     <Datos/>
                 </div>
                 <QuienesSomos/>

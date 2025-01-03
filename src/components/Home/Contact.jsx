@@ -36,7 +36,7 @@ const Contact = () => {
     <div className='lg:py-32 lg:px-[120px] px-4 py-12'>
       <ToastContainer />
       <div className="flex gap-28 justify-center items-center flex-wrap">
-        <img className='hidden md:inline' src="/assets/contact.png" alt="contact" />
+        <img className='hidden md:inline' src="/assets/contact.webp" alt="contact" />
         <form className='max-w-[686px] w-full' onSubmit={handleSubmit}>
           <legend className='h2-styled'>Contacta con nosotros</legend>
           <p className='mt-8'>Entendemos la importancia de las relaciones, por eso es nuestra prioridad ayudarte</p>

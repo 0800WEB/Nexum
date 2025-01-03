@@ -3,7 +3,7 @@ import React from 'react'
 const Beneficios = () => {
     return (
         <div className="w-full min-h-[823px] flex-col justify-center items-center gap-8 inline-flex bg-secondary overflow-hidden spacing relative">
-            <img className='absolute -left-28 h-full top-0' src="/assets/vector-transparent.png" alt="vector" />
+            <img className='absolute -left-28 h-full top-0' src="/assets/vector-transparent.webp" alt="vector" />
             <div className='flex flex-col gap-8 text-center lg:text-left'>
                 <p className="text-white">BRANDING</p>
                 <p className="text-white text-[32px] font-bold">¿Cuáles son los beneficios?</p>

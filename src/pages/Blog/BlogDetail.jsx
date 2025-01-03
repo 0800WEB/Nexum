@@ -43,7 +43,7 @@ const BlogDetail = () => {
       {/* Propiedades Open Graph para redes sociales */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={`https://tu-cms.com${cover.url}`} />
+      <meta property="og:image" content={`https://nexum-cms-production.up.railway.app${cover?.url}`} />
       <meta property="og:type" content="article" />
       <meta property="og:published_time" content={publishedAt} />
 

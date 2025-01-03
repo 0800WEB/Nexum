@@ -34,7 +34,7 @@
                     "Capacitación de equipos",
                     "Auditorías internas"
                 ],
-                "image": "gestion/image-1.png"
+                "image": "gestion/image-1.webp"
             },
             {
                 "id": 2,
@@ -46,7 +46,7 @@
                     "Automatización de flujos de trabajo",
                     "Indicadores de gestión"
                 ],
-                "image": "gestion/image-2.png"
+                "image": "gestion/image-2.webp"
             },
             {
                 "id": 3,
@@ -58,7 +58,7 @@
                     "Control de riesgos operacionales",
                     "Monitoreo y evaluación"
                 ],
-                "image": "gestion/image-3.png"
+                "image": "gestion/image-3.webp"
             }
         ]
     }

@@ -4,42 +4,42 @@
             "id": 1,
             "name": "Estrategia de Comunicación",
             "description": "Desarrollamos estrategias de comunicación globales, gestionando relaciones públicas, crisis y comunicación corporativa para fortalecer la conexión de tu marca.",
-            "icon": "comunicacion.png",
+            "icon": "comunicacion.webp",
             "href": "comunicacion"
         },
         {
             "id": 2,
             "name": "Branding",
             "description": "Creamos estrategias de marca combinando técnica y creatividad, asegurando que tu marca destaque y resuene con su audiencia.",
-            "icon": "branding.png",
+            "icon": "branding.webp",
             "href": "branding"
         },
         {
             "id": 3,
             "name": "Gestión en Esquemas y Procesos",
             "description": "Optimizamos los esquemas y procesos organizacionales bajo normas ISO, mejorando la eficiencia y el cumplimiento de estándares internacionales.",
-            "icon": "gestion.png",
+            "icon": "gestion.webp",
             "href": "gestion"
         },
         {
             "id": 4,
             "name": "Marketing Digital",
             "description": "Implementamos estrategias de marketing digital que incrementan la visibilidad online, atraen tráfico cualificado y mejoran la conversión.",
-            "icon": "seo.png",
+            "icon": "seo.webp",
             "href": "marketing-digital"
         },
         {
             "id": 5,
             "name": "Tecnología e Innovación",
             "description": "Proporcionamos soluciones tecnológicas avanzadas para optimizar procesos empresariales y promover la innovación.",
-            "icon": "IA.png",
+            "icon": "IA.webp",
             "href": "tecnologia-innovacion"
         },
         {
             "id": 6,
             "name": "Social Media y Paid Media",
             "description": "Gestionamos la presencia en redes sociales y campañas de medios pagados para maximizar el alcance y el engagement de tu audiencia.",
-            "icon": "paid-media.png",
+            "icon": "paid-media.webp",
             "href": "social-media"
         }
     ]
