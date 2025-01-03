@@ -138,7 +138,7 @@ const Servicio = () => {
                             </div>
                             <img
                                 className="max-w-[608px] h-[544px] rounded-2xl w-full object-cover"
-                                src={`/assets/services/${section?.image}`}
+                                src={`${import.meta.env.VITE_HOST_URL}/assets/services/${section?.image}`}
                                 alt={section?.title}
                             />
                         </div>
