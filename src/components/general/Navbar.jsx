@@ -59,7 +59,7 @@ const Navbar = () => {
         <Link className="text-white text-lg" onClick={toggleMenu} to="/nosotros">NOSOTROS</Link>
         <Link className="text-white text-lg" onClick={toggleMenu} to="/blog">BLOG</Link>
         <Link className="text-white text-lg" onClick={toggleMenu} to="/contacto">CONTACTO</Link>
-        <div className="flex gap-2.5">
+        <div className="flex gap-2.5 text-xl">
           <Link className="text-white" to="https://www.instagram.com/nexum.ar/" aria-label="instagram-link"><FaInstagram /></Link>
           <Link className="text-white" to="https://www.linkedin.com/company/nexum-comunicaci%C3%B3n-integral" aria-label="linkedin-link"><FaLinkedin /></Link>
         </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
           <Link className="text-secondary" to="/nosotros">NOSOTROS</Link>
           <Link className="text-secondary" to="/blog">BLOG</Link>
           <Link className="text-secondary" to="/contacto">CONTACTO</Link>
-          <div className="flex gap-2.5">
+          <div className="flex gap-2.5 text-xl">
           <Link className="text-secondary" to="https://www.instagram.com/nexum.ar/" aria-label="instagram-link"><FaInstagram /></Link>
           <Link className="text-secondary" to="https://www.linkedin.com/company/nexum-comunicaci%C3%B3n-integral" aria-label="linkedin-link"><FaLinkedin /></Link>
           </div>

@@ -25,7 +25,7 @@ const Blog = () => {
   return (
     <div className='min-h-[90vh] spacing flex flex-col gap-12 lg:gap-24 items-center text-center'>
       <Helmet>
-        <title>Blog de Creatividad | Inspírate con Contenido Único</title>
+        <title>Blog de Creatividad | Nexum</title>
         <meta
           name="description"
           content="Explora nuestro blog para nutrirte de creatividad. Encuentra artículos sobre diseño, innovación y tendencias actuales que inspirarán tu próximo proyecto."
