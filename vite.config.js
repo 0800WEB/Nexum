@@ -1,34 +1,41 @@
 import compress from 'vite-plugin-compression';
-import { robots } from 'vite-plugin-robots'
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { robots } from 'vite-plugin-robots';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+const isProduction = process.env.VITE_ENV === 'production';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),robots({
-    sitemap: 'https://www.nexum.net.ar/sitemap.xml',
-    host: 'https://www.nexum.net.ar',
-  }),compress({ algorithm: 'gzip', ext: '.gz' }),
-    compress({ algorithm: 'brotliCompress', ext: '.br' }),
-    ],
+  plugins: [
+    react(),
+    robots({
+      sitemap: process.env.VITE_SITEMAP_URL,
+      host: process.env.VITE_HOST_URL,
+    }),
+    compress({ algorithm: 'gzip', ext: '.gz' }),
+    ...(isProduction
+      ? [compress({ algorithm: 'brotliCompress', ext: '.br' })]
+      : []),
+  ],
   build: {
-    sourcemap: process.env.NODE_ENV !== 'production',
+    sourcemap: !isProduction,
     minify: 'esbuild', // Más rápido que Terser
   },
   resolve: {
     alias: {
-      '@': '/src', // Alias para la carpeta src
-      '@components': '/src/components', // Alias para componentes
-      '@styles': '/src/styles', // Alias para estilos
-      '@router': '/src/router', // Alias para el router
-      '@pages': '/src/pages', // Alias para el router
+      '@': '/src',
+      '@components': '/src/components',
+      '@styles': '/src/styles',
+      '@router': '/src/router',
+      '@pages': '/src/pages',
     },
   },
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "./src/styles/global.scss";`
-      }
-    }
-  }
-})
+        additionalData: `@import "./src/styles/global.scss";`,
+      },
+    },
+  },
+});
