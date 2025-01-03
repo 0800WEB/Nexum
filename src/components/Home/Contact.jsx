@@ -87,7 +87,7 @@ const Contact = () => {
                 ></textarea>
               </label>
             </fieldset>
-            <button type='submit' className="w-[195px] h-[51px] rounded-md border border-neutral-800 flex-col justify-center items-center inline-flex overflow-hidden">
+            <button type='submit' className="w-[195px] h-[51px] rounded-full border border-neutral-800 flex-col justify-center items-center inline-flex overflow-hidden">
               <div className="w-full h-full bg-neutral-800 shadow-inner shadow-white/25 justify-center items-center gap-2.5 inline-flex text-white">
                 Enviar
               </div>

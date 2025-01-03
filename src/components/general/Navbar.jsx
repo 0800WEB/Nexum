@@ -42,7 +42,7 @@ const Navbar = () => {
 
   const Mobile = () => (
     <>
-      <nav className="bg-primary w-full flex items-center justify-between">
+      <nav className="w-full flex items-center justify-between">
         <img className='max-w-[154px]' src={"/logo-dark.avif"} alt="Nexum" />
         <button 
           onClick={toggleMenu} 

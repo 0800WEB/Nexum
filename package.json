@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.2",
     "@strapi/strapi": "^5.5.1",
     "axios": "^1.7.2",
     "emailjs-com": "^3.2.0",

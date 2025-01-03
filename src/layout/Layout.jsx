@@ -8,7 +8,7 @@ const index = ({children}) => {
   return (
     <>
     <ScrollToTop />
-    <header className='bg-primary w-full h-[10vh] px-12 md:px-[64px] xl:px-[120px] flex'>
+    <header className='w-full h-[10vh] px-12 md:px-[64px] xl:px-[120px] flex'>
       <Navbar/>
     </header>
     <Outlet/>

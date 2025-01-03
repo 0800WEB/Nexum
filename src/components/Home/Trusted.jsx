@@ -35,7 +35,7 @@ const Trusted = () => {
     slidesToScroll: 1,
     draggable: true,
     customPaging: i => (
-      <div className="w-3 h-3 bg-white rounded-full opacity-50 hover:opacity-100"></div>
+      <div className="w-3 h-3 bg-white rounded-2xl opacity-50 hover:opacity-100"></div>
     ),
     appendDots: dots => (
       <div>

@@ -9,7 +9,7 @@ const BlogCard = ({ article }) => {
       title={`Leer más sobre: ${article?.title}`}
     >
       <div className="image relative">
-        <span className='absolute bottom-4 left-4 bg-white/20 px-4 py-2 rounded-full text-white font-medium z-10 backdrop-blur-sm border-white '>
+        <span className='absolute bottom-4 left-4 bg-white/20 px-4 py-2 rounded-2xl text-white font-medium z-10 backdrop-blur-sm border-white '>
           {article.category.name}
         </span>
         <img 

@@ -9,7 +9,7 @@ const ServicesCard = ({service}) => {
         navigate(`/servicios/${name}`)
     }
     return (
-        <div className="max-w-[470px] lg:h-[358px] p-8 bg-neutral-800 rounded-md shadow border border-white/opacity-10 flex-col justify-between items-center inline-flex gap-4">
+        <div className="max-w-[470px] lg:h-[358px] p-8 bg-neutral-800 rounded-2xl shadow border border-white/opacity-10 flex-col justify-between items-center inline-flex gap-4">
             <div className="self-stretch justify-start items-center gap-4 inline-flex">
                 <div className="w-[50px] h-[46px] p-4 rounded-md border border-white justify-center items-center gap-2.5 flex">
                     <img src={`/assets/icons/${service.icon}`} alt={service.name} role="img" />

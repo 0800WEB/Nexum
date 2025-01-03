@@ -64,7 +64,7 @@ const BlogDetail = () => {
         </div>
         <div className="w-full h-28 relative flex-shrink-0 flex gap-4">
           <img
-            className="w-24 h-24 left-0 top-0 absolute object-cover rounded-full"
+            className="w-24 h-24 left-0 top-0 absolute object-cover rounded-2xl"
             src={`https://nexum-cms-production.up.railway.app${author.avatar?.url}`}
             alt={`Foto del autor: ${author?.name}`}
           />
@@ -73,7 +73,7 @@ const BlogDetail = () => {
           </div>
         </div>
         <img
-          className="max-h-[653px] w-full rounded-md object-cover max-w-[750px]"
+          className="max-h-[653px] w-full rounded-2xl object-cover max-w-[750px]"
           src={`https://nexum-cms-production.up.railway.app${cover?.url}`}
           alt={title}
         />
