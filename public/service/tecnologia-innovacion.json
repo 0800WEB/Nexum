@@ -35,7 +35,7 @@
             "Calificación de leads",
             "Integración con múltiples canales"
           ],
-          "image": "tecnologia-innovacion/image-1.jpg"
+          "image": "tecnologia-innovacion/image-1.webp"
         },
         {
           "id": 2,
@@ -48,7 +48,7 @@
             "Integración con sistemas empresariales",
             "Monitoreo y generación de informes"
           ],
-          "image": "tecnologia-innovacion/image-2.jpg"
+          "image": "tecnologia-innovacion/image-2.webp"
         },
         {
           "id": 3,
@@ -61,7 +61,7 @@
             "Implementación y capacitación",
             "Mantenimiento y soporte continuo"
           ],
-          "image": "tecnologia-innovacion/image-3.jpg"
+          "image": "tecnologia-innovacion/image-3.webp"
         }
       ]
     }

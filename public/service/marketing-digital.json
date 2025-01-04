@@ -34,7 +34,7 @@
                     "Link Building",
                     "SEO Técnico"
                 ],
-                "image":"marketing/image-1.jpg"
+                "image":"marketing/image-1.webp"
             },
             {
                 "id": 2,
@@ -46,7 +46,7 @@
                     "Optimización de Conversiones",
                     "Análisis y Reportes"
                 ],
-                "image":"marketing/image-2.jpg"
+                "image":"marketing/image-2.webp"
             },
             {
                 "id": 3,
@@ -58,7 +58,7 @@
                     "Distribución de Contenidos",
                     "Medición y Optimización"
                 ],
-                "image":"marketing/image-4.jpg"
+                "image":"marketing/image-4.webp"
             },
             {
                 "id": 4,
@@ -70,7 +70,7 @@
                     "Medición de KPI",
                     "Informes Personalizados"
                 ],
-                "image":"marketing/image-3.jpg"
+                "image":"marketing/image-3.webp"
             }
         ]
     }

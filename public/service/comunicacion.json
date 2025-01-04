@@ -34,7 +34,7 @@
                     "Estrategias de Influencers",
                     "Monitoreo de Reputación"
                 ],
-                "image":"comunicacion/image-1.jpg"
+                "image":"comunicacion/image-1.webp"
             },
             {
                 "id": 2,
@@ -46,7 +46,7 @@
                     "Entrenamiento de Portavoces",
                     "Análisis Post-crisis"
                 ],
-                "image":"comunicacion/image-2.jpg"
+                "image":"comunicacion/image-2.webp"
             },
             {
                 "id": 3,
@@ -58,7 +58,7 @@
                     "Manejo de Redes Sociales",
                     "Responsabilidad Social Corporativa"
                 ],
-                "image":"comunicacion/image-3.jpg"
+                "image":"comunicacion/image-3.webp"
             },
             {
                 "id": 4,
@@ -70,7 +70,7 @@
                     "Diseño Gráfico",
                     "Marketing en Redes Sociales"
                 ],
-                "image":"comunicacion/image-4.jpg"
+                "image":"comunicacion/image-4.webp"
             }
         ]
     }
